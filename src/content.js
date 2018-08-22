@@ -7,8 +7,10 @@ class Content extends Component {
     }
     render () {
         return (
-            <div style={{color: this.context.themeColor}}>
-                this is content
+            <div>
+                <main style={{color: this.context.themeColor}}>
+                    this is content
+                </main>
             </div>
         )
     }
